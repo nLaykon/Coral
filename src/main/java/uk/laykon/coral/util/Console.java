@@ -83,6 +83,7 @@ public class Console {
     }
 
     public static void sendToAll(String message) {
+        plugin.getLogger().log(Level.INFO, message);
         for (Player player : Bukkit.getOnlinePlayers()) {
             player.sendMessage(Constants.message.deserialize(message));
         }
