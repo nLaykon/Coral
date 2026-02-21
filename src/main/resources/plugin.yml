@@ -1,0 +1,6 @@
+name: Coral
+version: '1.0-SNAPSHOT'
+main: uk.laykon.coral.Main
+api-version: '1.21'
+authors: [ Laykon ]
+description: Server side mod for marriage between players (modifies chat)
