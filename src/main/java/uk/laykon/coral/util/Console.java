@@ -14,7 +14,7 @@ public class Console {
     private static final Plugin plugin = Main.getInstance();
     private static final MiniMessage miniMessage = MiniMessage.miniMessage();
 
-    private static final String codeName = "<gold>Craftix</gold>";
+    private static final String codeName = "<gold>Coral</gold>";
     private static final CommandSender sender = Bukkit.getConsoleSender();
 
     private static Component formatMessage(String colorTag, String message) {
